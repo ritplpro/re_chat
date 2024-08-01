@@ -8,7 +8,7 @@ import 'cubit/register_cubit/register_cubit.dart';
 import 'firebase/firebase.dart';
 import 'firebase_options.dart';
 
-Future<void> main()  async{
+void main()  async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
